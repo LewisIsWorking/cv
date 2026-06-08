@@ -1,0 +1,69 @@
+name: Build CV
+
+# Renders README.md -> dist/index.html + dist/cv.pdf on every change.
+# - The PDF is always uploaded as a downloadable artifact (works even while the repo is private).
+# - The GitHub Pages site only deploys once the repo is public AND the repo variable
+#   PUBLISH_PAGES is set to "true" (Settings -> Secrets and variables -> Actions -> Variables).
+#   Until then the deploy job is skipped, so the workflow stays green.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'assets/**'
+      - 'scripts/**'
+      - 'package.json'
+      - '.github/workflows/build-cv.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent Pages deployment.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build CV (HTML + PDF)
+        run: npm run build
+
+      - name: Upload PDF + site as downloadable artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv
+          path: dist/
+          if-no-files-found: error
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
+
+  deploy:
+    needs: build
+    # Only deploy the public site once explicitly enabled (repo must be public on the free plan).
+    if: ${{ vars.PUBLISH_PAGES == 'true' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
