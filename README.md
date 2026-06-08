@@ -34,7 +34,7 @@ a Software Engineer role with broader technical ownership.
 
 | Area | Technologies |
 |------|--------------|
-| **Languages** | TypeScript, JavaScript, Java, C#, SQL |
+| **Languages** | TypeScript, JavaScript, Java, C#, Ruby, SQL |
 | **Backend & APIs** | Node.js, GraphQL, REST, Java / Spring Boot, ASP.NET Core; data lake / data warehouse; [FILL: database — e.g. DynamoDB / PostgreSQL] |
 | **Cloud & DevOps** | AWS (primary), Azure (auth); GitHub Actions CI/CD; Git PR workflow; Netlify; automated semantic versioning; PowerShell |
 | **Cross-platform / UI** | .NET 10, Uno Platform, .NET MAUI, Avalonia, WinUI, WebAssembly, SignalR *(personal projects)* |
@@ -61,8 +61,6 @@ a Software Engineer role with broader technical ownership.
   of <service> to <X>% / practise TDD on new endpoints].
 - [VERIFY/EDIT] [FILL: your single biggest deliverable — e.g. designed and shipped a new quoting
   endpoint / optimised a query path that cut p95 latency by X% / led a refactor of <service>].
-- [VERIFY/EDIT] Participated in internal innovation events (e.g. the Ignite 2024 hackathon),
-  prototyping [FILL: short description of the idea you pitched/built].
 
 ### Software Engineering Placement (Industrial Placement) — Liberty IT (Liberty Mutual)
 *Belfast · [FILL: 2020] – [FILL: 2021] · placement year during BSc*
@@ -105,8 +103,18 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
 - Applied **CQRS-style** command/event modelling — patterns that transfer directly to
   event-driven backend services.
 
-### [FILL: optional — a work or study project you can speak to]
-- [FILL: one or two lines]
+---
+
+## Hackathons & Awards
+
+- **Winner — Quoting Platform Hackathon, Liberty IT** ([FILL: year, e.g. 2023]). Built an
+  **observability platform integrated with GitHub Actions** that [FILL: what it surfaced — e.g.
+  CI/CD pipeline health and build/deploy metrics across the team's services]; have since competed
+  in the department hackathon twice.
+- **Liberty IT "Ignite" internal hackathons** — took part 2–3 times, prototyping
+  [FILL: one line on an idea you built or pitched].
+- **Queen's University Belfast Hackathon** (2019) — built a **Ruby** application supporting
+  farmers' mental health, addressing rural isolation and depression.
 
 ---
 
@@ -133,7 +141,6 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
 
 - **ShipItCon, Dublin (2025)** — software engineering conference; sessions on AI-native
   engineering, micro-frontends, monolith decomposition, and chaos engineering.
-- **Microsoft Ignite (2024)** — Microsoft's developer & technology conference.
 - [FILL: any courses, workshops, or self-directed learning worth listing]
 
 ---
