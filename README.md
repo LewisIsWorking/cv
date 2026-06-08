@@ -115,6 +115,9 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
   integrated with GitHub Actions** that surfaced which builds were deployed across each
   environment, giving the team clear deployment visibility; have since competed in the
   department hackathon twice.
+- **Liberty IT Scholarship** — selected as one of ~4 scholars from 150+ applicants; included a
+  bursary and paid summer internships (first- and second-year summers) that led into the
+  placement year and, in turn, a full-time role.
 - **Liberty IT "Ignite" internal hackathons** — took part 2–3 times, including at the company's
   **Boston (US) headquarters** (2022); prototyping internal tools and product concepts.
 - **Queen's University Belfast Hackathon** (2019) — built a **Ruby** application supporting
