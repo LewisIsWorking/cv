@@ -119,7 +119,7 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
   tools and product concepts.
 - **Queen's University Belfast Hackathon** (2019) — built a **Ruby** application supporting
   farmers' mental health, addressing rural isolation and depression.
-- **Represented the UK at the United Nations** (2015).
+- **Represented the UK at the United Nations in Berlin, Germany** (2015).
 
 ---
 
