@@ -64,34 +64,22 @@ strong advocate for clean, event-driven architecture and SOLID design.
 ### Chevron Lists — IDE extension *(published — VS Code & JetBrains)*
 *TypeScript · 749 unit tests at 100% line coverage · SOLID, event-driven*
 
-A markdown-based task, notes, and project-management extension published to both the
-**[VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=lewisisworking.chevron-lists)**
-and the **[JetBrains Marketplace](https://plugins.jetbrains.com/plugin/31877-chevron-lists)**.
-
-- Designed and shipped a polished, zero-config developer tool spanning **two major IDE
-  ecosystems**, with 250+ commands, live editor decorations, autocomplete, diagnostics, and
-  built-in AI assistance.
+- Designed and shipped a polished, zero-config **markdown task / notes / project-management
+  extension** spanning **two major IDE ecosystems**, with 250+ commands, live editor decorations,
+  autocomplete, diagnostics, and built-in AI assistance.
 - Engineered for quality: **749 unit tests at 100% line coverage** (66 test files), SOLID and
   event-driven throughout, with every source module kept under 200 lines.
-- Repos: [ChevronLists (VS Code)](https://github.com/LewisIsWorking/ChevronLists) ·
-  [ChevronListsJetBrains](https://github.com/LewisIsWorking/ChevronListsJetBrains)
+- Published: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=lewisisworking.chevron-lists) · [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/31877-chevron-lists) · Repos: [VS Code](https://github.com/LewisIsWorking/ChevronLists) · [JetBrains](https://github.com/LewisIsWorking/ChevronListsJetBrains)
 
 ### Cross-Platform Application Suite *(personal project)*
 *C# · .NET 10 · Uno Platform · ASP.NET Core · SignalR · WebAssembly*
 
-A live, cross-platform app (desktop + browser/WASM) built and maintained solo as a **38-project
-.NET solution**, demonstrating end-to-end ownership of a non-trivial codebase:
-
-- Designed an **event-driven architecture** using the CommunityToolkit `IMessenger` for
-  decoupled cross-component communication, with a DI/MVVM structure throughout.
+- Built and maintain **solo** a **38-project .NET solution** (desktop + browser/WASM) with an
+  **event-driven architecture** (CommunityToolkit `IMessenger`) and a DI/MVVM structure throughout.
 - Built a **real-time backend** (ASP.NET Core + SignalR) for chat, news, and directory features,
   secured with JWT authentication and message encryption.
-- Built a **complex, data-driven domain engine** driving a multi-step configuration workflow over
-  a large structured rules/content catalogue, with validation and offline persistence.
-- Targets **desktop and WebAssembly** from one codebase; deployed continuously to production
-  via **Netlify** with automated semantic versioning and a PR-based workflow.
-- Enforced strict engineering standards (200-line file limit, no partial classes, SOLID),
-  backed by **unit, integration, and UI test** projects.
+- Enforced strict engineering standards (200-line files, no partial classes, SOLID), backed by
+  **unit, integration, and UI test** projects.
 
 ### Avalonia Desktop Launcher — featured on Awesome Avalonia *(open source)*
 *C# · Avalonia*
@@ -102,10 +90,9 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
 ### Event-Sourced Simulation Engine *(personal project)*
 *C# · .NET · command → event (event-sourcing / CQRS) architecture*
 
-- Designed a deterministic, **event-sourced engine** that separates command handling from state
-  projection, giving fully reproducible state and straightforward unit testing.
-- Applied **CQRS-style** command/event modelling — patterns that transfer directly to
-  event-driven backend services.
+- Designed a deterministic **event-sourced / CQRS** engine that separates command handling from
+  state projection — reproducible state, straightforward testing, and patterns that transfer
+  directly to event-driven backend services.
 
 ---
 
