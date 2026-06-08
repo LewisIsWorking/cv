@@ -17,8 +17,7 @@ back-end APIs in TypeScript, JavaScript and GraphQL (with some Java) on AWS that
 of thousands of insurance quotes per day, and outside of work I independently design and ship
 large cross-platform applications in C# / .NET. Comfortable owning features end to end —
 designing the approach, writing the code, testing it, and seeing it through to release — and a
-strong advocate for clean, event-driven architecture and SOLID design. Looking to step up into
-a Software Engineer role with broader technical ownership.
+strong advocate for clean, event-driven architecture and SOLID design. 
 
 ---
 
