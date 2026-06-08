@@ -112,7 +112,7 @@ code {
 .download:hover { text-decoration: none; opacity: .9; }
 
 @media print {
-  body { background: #fff; font-size: 10.5pt; }
+  body { background: #fff; font-size: 10pt; line-height: 1.32; }
   .cv {
     box-shadow: none;
     margin: 0;
@@ -121,7 +121,13 @@ code {
     border-radius: 0;
   }
   .no-print { display: none !important; }
-  h2, h3 { break-after: avoid; }
-  ul, table, blockquote { break-inside: avoid; }
+  h1 { font-size: 22pt; }
+  h2 { margin: 12px 0 6px; break-after: avoid; }
+  h3 { margin: 9px 0 1px; break-after: avoid; }
+  ul { margin: 4px 0 7px; }
+  li { margin: 2px 0; }
+  p { margin: 4px 0; }
+  hr { display: none; }
+  table, blockquote { break-inside: avoid; }
   a { color: var(--ink); }
 }

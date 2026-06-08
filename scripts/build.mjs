@@ -46,7 +46,7 @@ await page.pdf({
   path: join(dist, 'cv.pdf'),
   format: 'A4',
   printBackground: true,
-  margin: { top: '14mm', bottom: '14mm', left: '14mm', right: '14mm' },
+  margin: { top: '12mm', bottom: '12mm', left: '12mm', right: '12mm' },
 });
 await browser.close();
 console.log('Wrote dist/cv.pdf');
