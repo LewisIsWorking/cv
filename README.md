@@ -26,7 +26,8 @@ strong advocate for clean, event-driven architecture and SOLID design.
 | Area | Technologies |
 |------|--------------|
 | **Languages** | TypeScript, JavaScript, Java, C#, Ruby, SQL |
-| **Backend & APIs** | Node.js, GraphQL, REST, Java / Spring Boot, ASP.NET Core; data lake / data warehouse |
+| **Backend & APIs** | Node.js, GraphQL, REST, Java / Spring Boot, ASP.NET Core |
+| **Data & messaging** | DynamoDB, DocumentDB, MongoDB, Redis (ElastiCache), Amazon SQS, Apache Kafka, S3; data lake / data warehouse |
 | **Cloud & DevOps** | AWS (primary), Azure (auth); GitHub Actions CI/CD; Git PR workflow; Netlify; automated semantic versioning; PowerShell |
 | **Cross-platform / UI** | .NET 10, Uno Platform, .NET MAUI, Avalonia, WinUI, WebAssembly, SignalR *(personal projects)* |
 | **Architecture & practices** | Event-driven messaging, DI / MVVM, SOLID, clean architecture |
