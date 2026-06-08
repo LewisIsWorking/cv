@@ -61,6 +61,21 @@ a Software Engineer role with broader technical ownership.
 
 ## Selected Projects
 
+### Chevron Lists — IDE extension *(published — VS Code & JetBrains)*
+*TypeScript · 749 unit tests at 100% line coverage · SOLID, event-driven*
+
+A markdown-based task, notes, and project-management extension published to both the
+**[VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=lewisisworking.chevron-lists)**
+and the **[JetBrains Marketplace](https://plugins.jetbrains.com/plugin/31877-chevron-lists)**.
+
+- Designed and shipped a polished, zero-config developer tool spanning **two major IDE
+  ecosystems**, with 250+ commands, live editor decorations, autocomplete, diagnostics, and
+  built-in AI assistance.
+- Engineered for quality: **749 unit tests at 100% line coverage** (66 test files), SOLID and
+  event-driven throughout, with every source module kept under 200 lines.
+- Repos: [ChevronLists (VS Code)](https://github.com/LewisIsWorking/ChevronLists) ·
+  [ChevronListsJetBrains](https://github.com/LewisIsWorking/ChevronListsJetBrains)
+
 ### Cross-Platform Application Suite *(personal project)*
 *C# · .NET 10 · Uno Platform · ASP.NET Core · SignalR · WebAssembly*
 
@@ -77,6 +92,12 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
   via **Netlify** with automated semantic versioning and a PR-based workflow.
 - Enforced strict engineering standards (200-line file limit, no partial classes, SOLID),
   backed by **unit, integration, and UI test** projects.
+
+### Avalonia Desktop Launcher — featured on Awesome Avalonia *(open source)*
+*C# · Avalonia*
+
+- Built an open-source Avalonia desktop launcher accepted into the community-curated
+  **[Awesome Avalonia](https://github.com/AvaloniaCommunity/awesome-avalonia)** list.
 
 ### Event-Sourced Simulation Engine *(personal project)*
 *C# · .NET · command → event (event-sourcing / CQRS) architecture*
