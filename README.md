@@ -115,8 +115,8 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
   integrated with GitHub Actions** that surfaced which builds were deployed across each
   environment, giving the team clear deployment visibility; have since competed in the
   department hackathon twice.
-- **Liberty IT "Ignite" internal hackathons** — took part 2–3 times, prototyping internal
-  tools and product concepts.
+- **Liberty IT "Ignite" internal hackathons** — took part 2–3 times, including at the company's
+  **Boston (US) headquarters** (2022); prototyping internal tools and product concepts.
 - **Queen's University Belfast Hackathon** (2019) — built a **Ruby** application supporting
   farmers' mental health, addressing rural isolation and depression.
 - **Represented the UK at the United Nations in Berlin, Germany** (2015).
@@ -139,3 +139,4 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
 
 - **ShipItCon, Dublin (2025)** — software engineering conference; sessions on AI-native
   engineering, micro-frontends, monolith decomposition, and chaos engineering.
+- **Quoting Platform Con** — selected to attend at Liberty IT's **Boston (US) headquarters** (2024).
