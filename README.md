@@ -10,8 +10,10 @@
 
 **Software Engineer**
 
-Belfast, Northern Ireland `[confirm]` · LewisIsWorking@gmail.com
-linkedin.com/in/lewis-creelman-05915511a · github.com/LewisIsWorking
+- **Location:** Belfast, Northern Ireland
+- **Email:** [LewisIsWorking@gmail.com](mailto:LewisIsWorking@gmail.com)
+- **LinkedIn:** [lewis-creelman](https://www.linkedin.com/in/lewis-creelman-05915511a/)
+- **GitHub:** [LewisIsWorking](https://github.com/LewisIsWorking)
 
 ---
 
@@ -86,8 +88,8 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
   decoupled cross-component communication, with a DI/MVVM structure throughout.
 - Built a **real-time backend** (ASP.NET Core + SignalR) providing chat, news, and a business
   directory, secured with JWT authentication and message encryption.
-- Implemented a full **Pathfinder 2e character-creator suite** — a multi-step, data-driven
-  domain engine (rules, equipment, spells, creatures) with offline persistence.
+- Built a **complex, data-driven domain engine** driving a multi-step configuration workflow over
+  a large structured rules/content catalogue, with validation and offline persistence.
 - Targets **desktop and WebAssembly** from one codebase; deployed continuously to production
   via **Netlify** with automated semantic versioning and a PR-based workflow.
 - Enforced strict engineering standards (200-line file limit, no partial classes, SOLID),
@@ -95,11 +97,13 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
 
 > Live: [FILL: deployed URL] · Code: github.com/LewisIsWorking/[FILL: repo name]
 
-### Eel Sea — Sci-fi idle RPG *(personal project)*
-*C# · .NET · command → event simulation architecture*
+### Event-Sourced Simulation Engine *(personal project)*
+*C# · .NET · command → event (event-sourcing / CQRS) architecture*
 
-- Designed a deterministic **command/event simulation engine** separating game logic from
-  presentation, enabling reproducible state and straightforward testing.
+- Designed a deterministic, **event-sourced engine** that separates command handling from state
+  projection, giving fully reproducible state and straightforward unit testing.
+- Applied **CQRS-style** command/event modelling — patterns that transfer directly to
+  event-driven backend services.
 
 ### [FILL: optional — a work or study project you can speak to]
 - [FILL: one or two lines]
@@ -136,5 +140,5 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
 
 ## Interests
 
-[FILL: optional — keep to one line, e.g. tabletop RPG design (Pathfinder 2e), game development,
-cycling. Delete if you'd rather use the space.]
+[FILL: optional, one line — e.g. open-source / personal projects, home-lab & self-hosting,
+cycling. Delete if you'd rather use the space for experience.]

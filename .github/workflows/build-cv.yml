@@ -7,14 +7,18 @@ name: Build CV
 #   Until then the deploy job is skipped, so the workflow stays green.
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'README.md'
-      - 'assets/**'
-      - 'scripts/**'
-      - 'package.json'
-      - '.github/workflows/build-cv.yml'
+  # The 'push' trigger is disabled while the repo is PRIVATE: GitHub Actions is currently
+  # blocked on this account for private repos (billing), so an auto-run on every push would
+  # just log a red failure. Re-enable this block when the repo goes public — Actions are
+  # free and unlimited on public repos.
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - 'README.md'
+  #     - 'assets/**'
+  #     - 'scripts/**'
+  #     - 'package.json'
+  #     - '.github/workflows/build-cv.yml'
   workflow_dispatch:
 
 permissions:
