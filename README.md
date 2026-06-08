@@ -108,7 +108,7 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
 
 ---
 
-## Hackathons & Awards
+## Awards & Achievements
 
 - **Winner — Quoting Platform Hackathon, Liberty IT.** Built an **observability platform
   integrated with GitHub Actions** that surfaced which builds were deployed across each
@@ -118,6 +118,7 @@ A live, cross-platform app (desktop + browser/WASM) built and maintained solo as
   tools and product concepts.
 - **Queen's University Belfast Hackathon** (2019) — built a **Ruby** application supporting
   farmers' mental health, addressing rural isolation and depression.
+- **Represented the UK at the United Nations** (2015).
 
 ---
 
