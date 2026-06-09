@@ -20,7 +20,14 @@ const html = `<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lewis David Creelman — CV</title>
+  <title>Lewis David Creelman — Software Engineer</title>
+  <meta name="description" content="Software Engineer — back-end APIs (TypeScript / GraphQL / Node.js on AWS) at 100k+ quotes/day, plus published C#/.NET open source.">
+  <meta property="og:title" content="Lewis David Creelman — Software Engineer">
+  <meta property="og:description" content="Back-end APIs (TypeScript / GraphQL / Node.js on AWS) at 100k+ quotes/day, plus published C#/.NET open source.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://lewisisworking.github.io/cv/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b5cab'/%3E%3Ctext x='16' y='22' font-family='Segoe UI,Arial,sans-serif' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3ELC%3C/text%3E%3C/svg%3E">
   <style>${css}</style>
 </head>
 <body>

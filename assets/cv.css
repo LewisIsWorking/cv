@@ -88,15 +88,6 @@ blockquote {
   font-size: 10pt;
 }
 
-/* Inline code spans — used by drafting markers like `[confirm]`; highlighted so they're
-   easy to spot while the CV is still a work in progress. */
-code {
-  background: #fff3cd;
-  padding: 0 4px;
-  border-radius: 3px;
-  font-size: .9em;
-}
-
 /* "Download PDF" button — screen only, hidden in the printed/PDF output. */
 .download {
   display: inline-block;
@@ -129,5 +120,10 @@ code {
   p { margin: 4px 0; }
   hr { display: none; }
   table, blockquote { break-inside: avoid; }
-  a { color: var(--ink); }
+}
+
+@media (max-width: 600px) {
+  .cv { padding: 20px 16px; margin: 0; border-radius: 0; }
+  td:first-child, th:first-child { width: auto; }
+  td { overflow-wrap: anywhere; }
 }

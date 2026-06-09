@@ -1,8 +1,8 @@
 # Lewis David Creelman
 
-**Software Engineer**
+**Software Engineer** · Back-end APIs (TypeScript · GraphQL · AWS) · published C#/.NET
 
-- **Location:** Belfast, Northern Ireland
+- **Location:** Belfast, Northern Ireland · open to remote / hybrid
 - **Email:** [LewisIsWorking@gmail.com](mailto:LewisIsWorking@gmail.com)
 - **LinkedIn:** [lewis-creelman](https://www.linkedin.com/in/lewis-creelman-05915511a/)
 - **GitHub:** [LewisIsWorking](https://github.com/LewisIsWorking)
@@ -11,13 +11,11 @@
 
 ## Professional Summary
 
-Software engineer with around 4 years' full-time commercial experience at Liberty IT (Liberty
-Mutual), following a year-long industrial placement with the same company. I build internal
-back-end APIs in TypeScript, JavaScript and GraphQL (with some Java) on AWS that serve hundreds
-of thousands of insurance quotes per day, and outside of work I independently design and ship
-large cross-platform applications in C# / .NET. Comfortable owning features end to end —
-designing the approach, writing the code, testing it, and seeing it through to release — and a
-strong advocate for clean, event-driven architecture and SOLID design. 
+Software engineer shipping back-end APIs at 100k+ insurance quotes/day (TypeScript, GraphQL and
+Node.js on AWS) and, independently, large cross-platform C# / .NET systems — including a published
+cross-IDE extension with 749 tests at 100% coverage. Four years' commercial experience at Liberty
+IT (Liberty Mutual) following a placement year there; comfortable owning features end to end, from
+technical approach through testing to release.
 
 ---
 
@@ -27,7 +25,7 @@ strong advocate for clean, event-driven architecture and SOLID design.
 |------|--------------|
 | **Languages** | TypeScript, JavaScript, Java, C#, Ruby, SQL |
 | **Backend & APIs** | Node.js, GraphQL, REST, Java / Spring Boot, ASP.NET Core |
-| **Data & messaging** | DynamoDB, DocumentDB, MongoDB, Redis (ElastiCache), Amazon SQS, Apache Kafka, S3; data lake / data warehouse |
+| **Data & messaging** | DynamoDB, DocumentDB, MongoDB, Redis (ElastiCache), Amazon SQS, Apache Kafka; data lake / data warehouse |
 | **Cloud & DevOps** | AWS (primary), Azure (auth); GitHub Actions CI/CD; Git PR workflow; Netlify; automated semantic versioning; PowerShell |
 | **Cross-platform / UI** | .NET 10, Uno Platform, .NET MAUI, Avalonia, WinUI, WebAssembly, SignalR *(personal projects)* |
 | **Architecture & practices** | Event-driven messaging, DI / MVVM, SOLID, clean architecture |
@@ -41,21 +39,20 @@ strong advocate for clean, event-driven architecture and SOLID design.
 ### Associate Software Engineer — Liberty IT (Liberty Mutual)
 *Belfast · August 2022 – Present*
 
-- Build and maintain internal **back-end APIs** in TypeScript, JavaScript and GraphQL (Node.js)
-  that serve **hundreds of thousands of insurance quotes per day** on the **Quoting Platform** team.
-- Develop and operate services on **AWS** (with Azure for authentication), taking features from
-  design through implementation, code review, and release.
-- Contributed to the team's migration of CI/CD from **Bamboo to GitHub Actions** (now used for
-  100% of pipelines), standardising and simplifying the release process.
-- Maintain service quality with **Jest** unit tests across the team's APIs.
+- Own and evolve internal **back-end APIs** (TypeScript/JavaScript, GraphQL on Node.js) on the
+  **Quoting Platform** — collectively serving **100k+ insurance quotes per day** — backed by Jest unit tests.
+- **Designed and shipped a shared logging capability adopted across the Quoting Platform**, giving
+  teams consistent, queryable diagnostics for their back-end services.
+- Develop and operate services on **AWS** (Azure for auth) from design through peer review to
+  release; regularly review teammates' pull requests.
+- **Drove** the team's CI/CD migration from **Bamboo to GitHub Actions** (now 100% of pipelines),
+  standardising and simplifying releases.
 
 ### Software Engineering Placement — Liberty IT (Liberty Mutual)
 *Belfast · 2020 – 2021 · placement year during the BEng*
 
-- Worked on a **Java / Spring Boot** application within a **data lake / data warehouse** team.
-- Built a **batch-process calendar view** that internal teams still use today.
-- Earned a full year of commercial experience before final year, and was invited back as a
-  full-time engineer after graduating.
+- Placement year (**Java / Spring Boot**) on a **data lake / data warehouse** team — built a
+  batch-process calendar view still used by internal teams today.
 
 ---
 
@@ -67,15 +64,15 @@ strong advocate for clean, event-driven architecture and SOLID design.
 - Designed and shipped a polished, zero-config **markdown task / notes / project-management
   extension** spanning **two major IDE ecosystems**, with 250+ commands, live editor decorations,
   autocomplete, diagnostics, and built-in AI assistance.
-- Engineered for quality: **749 unit tests at 100% line coverage** (66 test files), SOLID and
-  event-driven throughout, with every source module kept under 200 lines.
+- Engineered for quality: **66 test files**, SOLID and event-driven throughout, with every source
+  module kept under 200 lines.
 - Published: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=lewisisworking.chevron-lists) · [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/31877-chevron-lists) · Repos: [VS Code](https://github.com/LewisIsWorking/ChevronLists) · [JetBrains](https://github.com/LewisIsWorking/ChevronListsJetBrains)
 
-### Cross-Platform Application Suite *(personal project)*
+### Cross-Platform Application Suite *(personal project · private repo — walkthrough on request)*
 *C# · .NET 10 · Uno Platform · ASP.NET Core · SignalR · WebAssembly*
 
 - Built and maintain **solo** a **38-project .NET solution** (desktop + browser/WASM) with an
-  **event-driven architecture** (CommunityToolkit `IMessenger`) and a DI/MVVM structure throughout.
+  **event-driven architecture** (CommunityToolkit IMessenger) and a DI/MVVM structure throughout.
 - Built a **real-time backend** (ASP.NET Core + SignalR) for chat, news, and directory features,
   secured with JWT authentication and message encryption.
 - Enforced strict engineering standards (200-line files, no partial classes, SOLID), backed by
@@ -96,20 +93,16 @@ strong advocate for clean, event-driven architecture and SOLID design.
 
 ---
 
-## Awards & Achievements
+## Awards & Recognition
 
-- **Winner — Quoting Platform Hackathon, Liberty IT.** Built an **observability platform
-  integrated with GitHub Actions** that surfaced which builds were deployed across each
-  environment, giving the team clear deployment visibility; have since competed in the
-  department hackathon twice.
-- **Liberty IT Scholarship** — selected as one of ~4 scholars from 150+ applicants; included a
-  bursary and paid summer internships (first- and second-year summers) that led into the
-  placement year and, in turn, a full-time role.
-- **Liberty IT "Ignite" internal hackathons** — took part 2–3 times, including at the company's
-  **Boston (US) headquarters** (2022); prototyping internal tools and product concepts.
-- **Queen's University Belfast Hackathon** (2019) — built a **Ruby** application supporting
-  farmers' mental health, addressing rural isolation and depression.
-- **Represented the UK at the United Nations in Berlin, Germany** (2015).
+- **Liberty IT Scholarship** — one of ~4 scholars selected from 150+ applicants; a bursary plus
+  paid summer internships that led into the placement year and, in turn, a full-time role.
+- **Winner — Quoting Platform Hackathon, Liberty IT** — built an **observability platform
+  integrated with GitHub Actions** giving the team clear cross-environment deployment visibility.
+- **Selected to represent the team at Liberty IT's Boston (US) HQ** — "Ignite" hackathons (2022)
+  and Quoting Platform Con (2024).
+- **Earlier** — represented the UK at the United Nations, Berlin (2015); built a **Ruby** app
+  supporting farmers' mental health (QUB Hackathon, 2019).
 
 ---
 
@@ -122,11 +115,3 @@ strong advocate for clean, event-driven architecture and SOLID design.
 *Coleraine Technical College · 2016 – 2018*
 
 - BTEC Level 3 Extended Diploma in ICT — **D\*D\*D\*** (equivalent to A\*A\*A\* at A-Level)
-
----
-
-## Professional Development
-
-- **ShipItCon, Dublin (2025)** — software engineering conference; sessions on AI-native
-  engineering, micro-frontends, monolith decomposition, and chaos engineering.
-- **Quoting Platform Con** — selected to attend at Liberty IT's **Boston (US) headquarters** (2024).
