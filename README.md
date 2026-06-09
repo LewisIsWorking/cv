@@ -84,12 +84,12 @@ technical approach through testing to release.
 - Built an open-source Avalonia desktop launcher accepted into the community-curated
   **[Awesome Avalonia](https://github.com/AvaloniaCommunity/awesome-avalonia)** list.
 
-### Event-Sourced Simulation Engine *(personal project)*
-*C# · .NET · command → event (event-sourcing / CQRS) architecture*
+### Sci-Fi Idle/Incremental RPG — command→event simulation engine *(personal project)*
+*C# · .NET 10 · Avalonia · CQRS / event-driven · immutable state · 100% core test coverage*
 
-- Designed a deterministic **event-sourced / CQRS** engine that separates command handling from
-  state projection — reproducible state, straightforward testing, and patterns that transfer
-  directly to event-driven backend services.
+- Built a deterministic **command→event** simulation engine (CQRS-style — commands in, events out,
+  immutable record state) with fully reproducible state and straightforward testing; the same
+  patterns transfer directly to event-driven backend services.
 
 ---
 
